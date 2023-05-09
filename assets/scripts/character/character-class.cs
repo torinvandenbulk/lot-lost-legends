@@ -6,7 +6,6 @@ public enum CharacterClass
     Paladin,
     Fighter,
     Sorcerer,
-    Druid,
     Barbarian,
     Rogue
 }
