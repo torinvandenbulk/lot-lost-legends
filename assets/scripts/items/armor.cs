@@ -1,4 +1,4 @@
-public class Armor
+public class Armor : Item
 {
     public string Name { get; set; }
     public string Description { get; set; }
