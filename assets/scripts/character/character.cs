@@ -5,12 +5,7 @@ public class Character : MonoBehaviour
     public string characterName;
     public int level;
 
-    public int strength;
-    public int dexterity;
-    public int constitution;
-    public int intelligence;
-    public int wisdom;
-    public int charisma;
+    public CharacterAttributes CharacterAttributes;
 
     public int initiative;
 
@@ -21,6 +16,16 @@ public class Character : MonoBehaviour
 
     public void RollInitiative()
     {
-        initiative = Random.Range(1, 21) + Mathf.FloorToInt((dexterity - 10) / 2);
+        initiative = Random.Range(1, 21) + Mathf.FloorToInt((CharacterAttributes.Dexterity - 10) / 2);
     }
+}
+
+public class CharacterAttributes : ScriptableObject
+{
+    public int Strength { get; set; }
+    public int Dexterity { get; set; }
+    public int Constitution { get; set; }
+    public int Intelligence { get; set; }
+    public int Wisdom { get; set; }
+    public int Charisma { get; set; }
 }
