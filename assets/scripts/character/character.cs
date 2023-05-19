@@ -11,6 +11,8 @@ public class Character : MonoBehaviour
     
     public CharacterClass characterClass;
 
+    public Race race;
+    
     private void Start()
     {
         RollInitiative();
@@ -38,6 +40,7 @@ public class Character : MonoBehaviour
         // Set the character's name and attributes.
         characterName = selectedCharacter;
         CharacterAttributes = GetCharacterAttributes(selectedCharacter);
+        race = GetRace(characterName);
     }
 
     private string PromptUserForCharacter(List<string> characters)
