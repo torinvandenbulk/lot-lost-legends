@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class HeroSelection : MonoBehaviour
+public class CharSelection : MonoBehaviour
 {
     public Dictionary<string, Character> characters = new Dictionary<string, Character>
     {
