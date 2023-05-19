@@ -8,6 +8,8 @@ public class Character : MonoBehaviour
     public CharacterAttributes CharacterAttributes;
 
     public int initiative;
+    
+    public CharacterClass characterClass;
 
     private void Start()
     {
