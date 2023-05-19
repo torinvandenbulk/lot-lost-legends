@@ -32,14 +32,14 @@ public class Character : MonoBehaviour
     public void SelectCharacter()
     {
         // Call the SelectCharacter() function from the char-selection.cs file.
-        var heroSelection = new HeroSelection();
-        heroSelection.SelectCharacter();
+        var charSelection = new CharSelection();
+        charSelection.SelectCharacter();
 
         // Set the character's name and attributes.
-        characterName = heroSelection.characterName;
-        CharacterAttributes = heroSelection.CharacterAttributes;
-        race = heroSelection.race;
-        characterClass = heroSelection.characterClass;
+        characterName = charSelection.characterName;
+        CharacterAttributes = charSelection.CharacterAttributes;
+        race = charSelection.race;
+        characterClass = charSelection.characterClass;
     }
 
     public bool encounterActive = false;
