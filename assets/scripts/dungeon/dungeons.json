@@ -1,0 +1,102 @@
+[
+  {
+    "name": "The Emerald Forest",
+    "biome": "Forest",
+    "level": 1,
+    "length": 10,
+    "encounters": [
+      {
+        "name": "A group of goblins",
+        "cr": 1/4
+      },
+      {
+        "name": "A pack of wolves",
+        "cr": 1/4
+      },
+      {
+        "name": "A giant spider",
+        "cr": 1
+      }
+    ]
+  },
+  {
+    "name": "The Lost Oasis",
+    "biome": "Desert",
+    "level": 5,
+    "length": 15,
+    "encounters": [
+      {
+        "name": "A group of bandits",
+        "cr": 1/2
+      },
+      {
+        "name": "A sand worm",
+        "cr": 2
+      },
+      {
+        "name": "A mummy",
+        "cr": 3
+      }
+    ]
+  },
+  {
+    "name": "The Dwarven Mines",
+    "biome": "Mountain",
+    "level": 10,
+    "length": 20,
+    "encounters": [
+      {
+        "name": "A group of dwarves",
+        "cr": 1
+      },
+      {
+        "name": "A troll",
+        "cr": 2
+      },
+      {
+        "name": "A dragon",
+        "cr": 10
+      }
+    ]
+  },
+  {
+    "name": "The Haunted Swamp",
+    "biome": "Swamp",
+    "level": 15,
+    "length": 25,
+    "encounters": [
+      {
+        "name": "A group of zombies",
+        "cr": 1/2
+      },
+      {
+        "name": "A swamp hag",
+        "cr": 3
+      },
+      {
+        "name": "A giant frog",
+        "cr": 4
+      }
+    ]
+  },
+  {
+    "name": "The Frozen Wastes",
+    "biome": "Tundra",
+    "level": 20,
+    "length": 30,
+    "encounters": [
+      {
+        "name": "A group of yetis",
+        "cr": 2
+      },
+      {
+        "name": "A snow troll",
+        "cr": 3
+      },
+      {
+        "name": "A white dragon",
+        "cr": 17
+      }
+    ]
+  }
+]
