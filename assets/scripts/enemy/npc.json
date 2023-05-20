@@ -1,0 +1,83 @@
+{
+  "Bandit": {
+    "Name": "Bandit",
+    "Description": "A human bandit is a member of a group of criminals who prey on the weak and defenseless. They are typically armed with simple weapons and armor, and they are not particularly skilled in combat.",
+    "CR Rating": 1/4,
+    "AC": 13,
+    "HP": 10,
+    "Attacks": [
+      {
+        "Name": "Shortsword",
+        "Modifier": +4,
+        "Damage": 5 (1d6 + 2)
+      },
+      {
+        "Name": "Dagger",
+        "Modifier": +4,
+        "Damage": 4 (1d4 + 2)
+      }
+    ]
+  },
+  "Goblin": {
+    "Name": "Goblin",
+    "Description": "A goblin is a small, humanoid creature that is often associated with evil. They are typically cowardly and treacherous, but they can be fierce fighters when cornered.",
+    "CR Rating": 1/4,
+    "AC": 12,
+    "HP": 7,
+    "Attacks": [
+      {
+        "Name": "Shortsword",
+        "Modifier": +4,
+        "Damage": 5 (1d6 + 2)
+      },
+      {
+        "Name": "Handaxe",
+        "Modifier": +4,
+        "Damage": 4 (1d4 + 2)
+      }
+    ]
+  },
+  "Orc": {
+    "Name": "Orc",
+    "Description": "An orc is a large, brutish humanoid creature that is often associated with violence and destruction. They are typically strong and aggressive, and they are skilled in combat.",
+    "CR Rating": 1,
+    "AC": 13,
+    "HP": 11,
+    "Attacks": [
+      {
+        "Name": "Greataxe",
+        "Modifier": +5,
+        "Damage": 11 (2d6 + 3)
+      },
+      {
+        "Name": "Battleaxe",
+        "Modifier": +5,
+        "Damage": 7 (1d12 + 2)
+      },
+      {
+        "Name": "Javelin",
+        "Modifier": +5,
+        "Damage": 6 (1d6 + 3)
+      }
+    ]
+  },
+  "Troll": {
+    "Name": "Troll",
+    "Description": "A troll is a large, hulking humanoid creature that is often associated with evil. They are typically strong and aggressive, and they are immune to fire and poison damage.",
+    "CR Rating": 2,
+    "AC": 17,
+    "HP": 126,
+    "Attacks": [
+      {
+        "Name": "Greatclub",
+        "Modifier": +8,
+        "Damage": 17 (3d6 + 6)
+      },
+      {
+        "Name": "Bite",
+        "Modifier": +8,
+        "Damage": 10 (2d6 + 4)
+      }
+    ]
+  }
+}
