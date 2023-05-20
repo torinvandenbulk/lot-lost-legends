@@ -18,6 +18,7 @@
       }
     ]
   },
+  
   "Goblin": {
     "Name": "Goblin",
     "Description": "A goblin is a small, humanoid creature that is often associated with evil. They are typically cowardly and treacherous, but they can be fierce fighters when cornered.",
@@ -37,6 +38,7 @@
       }
     ]
   },
+  
   "Orc": {
     "Name": "Orc",
     "Description": "An orc is a large, brutish humanoid creature that is often associated with violence and destruction. They are typically strong and aggressive, and they are skilled in combat.",
@@ -61,6 +63,7 @@
       }
     ]
   },
+  
   "Troll": {
     "Name": "Troll",
     "Description": "A troll is a large, hulking humanoid creature that is often associated with evil. They are typically strong and aggressive, and they are immune to fire and poison damage.",
@@ -77,6 +80,636 @@
         "Name": "Bite",
         "Modifier": +8,
         "Damage": 10 (2d6 + 4)
+      }
+    ]
+  },
+  
+  "Animated Armor": {
+    "Name": "Animated Armor",
+    "Description": "An animated armor is a suit of armor that has been brought to life by magic. It is typically used as a guard or a servant, and it is not particularly intelligent or dangerous.",
+    "CR Rating": 1/4,
+    "AC": 16,
+    "HP": 60,
+    "Attacks": [
+      {
+        "Name": "Longsword",
+        "Modifier": +6,
+        "Damage": 8 (1d8 + 4)
+      }
+    ]
+  },
+  
+  "Ankheg": {
+    "Name": "Ankheg",
+    "Description": "An ankheg is a large, burrowing creature that is often found in underground tunnels and caverns. It has a powerful bite that can crush bone, and it can also inject its prey with a paralyzing venom.",
+    "CR Rating": 1/2,
+    "AC": 15,
+    "HP": 27,
+    "Attacks": [
+      {
+        "Name": "Bite",
+        "Modifier": +4,
+        "Damage": 7 (2d6 + 2)
+      },
+      {
+        "Name": "Piercing Relish",
+        "Modifier": +4,
+        "Damage": 7 (2d6 + 2)
+      }
+    ]
+  },
+  
+  "Apprentice Wizard": {
+    "Name": "Apprentice Wizard",
+    "Description": "An apprentice wizard is a young wizard who is still learning the ways of magic. They are typically not very powerful, but they can be dangerous if they are underestimated.",
+    "CR Rating": 1/4,
+    "AC": 13,
+    "HP": 10,
+    "Attacks": [
+      {
+        "Name": "Ray of Frost",
+        "Modifier": +4,
+        "Damage": 1d8 cold damage
+      },
+      {
+        "Name": "Shocking Grasp",
+        "Modifier": +4,
+        "Damage": 1d8 lightning damage
+      }
+    ]
+  },
+  
+  "Armored Wight": {
+    "Name": "Armored Wight",
+    "Description": "An armored wight is a undead creature that has been reanimated by magic. It is typically wearing heavy armor and wielding a powerful weapon, and it is a dangerous foe.",
+    "CR Rating": 2,
+    "AC": 17,
+    "HP": 126,
+    "Attacks": [
+      {
+        "Name": "Longsword",
+        "Modifier": +8,
+        "Damage": 8 (1d8 + 4)
+      },
+      {
+        "Name": "Life Drain",
+        "Modifier": +8,
+        "Damage": 10 (2d6 + 4)
+      }
+    ]
+  },
+  
+  "Beholder": {
+    "Name": "Beholder",
+    "Description": "A beholder is a large, floating creature with a central eye surrounded by 10 eyestalks. Each eye has a different magical ability, and the beholder can use these abilities to attack its foes.",
+    "CR Rating": 13,
+    "AC": 18,
+    "HP": 200,
+    "Attacks": [
+      {
+        "Name": "Eye Rays",
+        "Modifier": +10,
+        "Damage": Varies
+      }
+    ]
+  },
+
+  "Chain Devil": {
+    "Name": "Chain Devil",
+    "Description": "A chain devil is a fiendish creature that is bound to a magical chain. It is typically cruel and sadistic, and it enjoys torturing its victims.",
+    "CR Rating": 5,
+    "AC": 17,
+    "HP": 105,
+    "Attacks": [
+      {
+        "Name": "Multiattack",
+        "Modifier": +6,
+        "Damage": Varies
+      },
+      {
+        "Name": "Chain",
+        "Modifier": +6,
+        "Damage": 10 (2d6 + 3)
+      },
+      {
+        "Name": "Tail",
+        "Modifier": +6,
+        "Damage": 10 (2d6 + 3)
+      }
+    ]
+  },
+  
+  "Chimera": {
+    "Name": "Chimera",
+    "Description": "A chimera is a three-headed creature that is often associated with fire and destruction. It has the head of a lion, a goat, and a snake, and it can breathe fire.",
+    "CR Rating": 7,
+    "AC": 17,
+    "HP": 190,
+    "Attacks": [
+      {
+        "Name": "Bite",
+        "Modifier": +7,
+        "Damage": 14 (2d6 + 5)
+      },
+      {
+        "Name": "Claw",
+        "Modifier": +7,
+        "Damage": 7 (1d8 + 3)
+      },
+      {
+        "Name": "Fire Breath",
+        "Modifier": +7,
+        "Damage": 14 (2d6 + 5)
+      }
+    ]
+  },
+  
+  "Displacer Beast": {
+    "Name": "Displacer Beast",
+    "Description": "A displacer beast is a large, feline creature that is often found in forests and jungles. It has the ability to create a magical illusion that makes it appear to be in two places at once, making it difficult to hit.",
+    "CR Rating": 3,
+    "AC": 15,
+    "HP": 72,
+    "Attacks": [
+      {
+        "Name": "Bite",
+        "Modifier": +5,
+        "Damage": 10 (2d6 + 3)
+      },
+      {
+        "Name": "Displacer Claws",
+        "Modifier": +5,
+        "Damage": 7 (1d8 + 3)
+      }
+    ]
+  },
+  
+  "Drow": {
+    "Name": "Drow",
+    "Description": "A drow is a dark elf that lives in the Underdark. They are typically cruel and sadistic, and they worship the dark goddess Lolth.",
+    "CR Rating": 1/2,
+    "AC": 15,
+    "HP": 27,
+    "Attacks": [
+      {
+        "Name": "Shortsword",
+        "Modifier": +4,
+        "Damage": 5 (1d6 + 2)
+      },
+      {
+        "Name": "Drow Dagger",
+        "Modifier": +4,
+        "Damage": 4 (1d4 + 2)
+      }
+    ]
+  },
+  
+  "Ettin": {
+    "Name": "Ettin",
+    "Description": "An ettin is a giant with two heads. It is typically strong and aggressive, and it is skilled in combat.",
+    "CR Rating": 6,
+    "AC": 16,
+    "HP": 157,
+    "Attacks": [
+      {
+        "Name": "Multiattack",
+        "Modifier": +6,
+        "Damage": Varies
+      },
+      {
+        "Name": "Greatclub",
+        "Modifier": +6,
+        "Damage": 17 (2d8 + 6)
+      }
+     ]
+   },
+  
+  "Gelatinous Cube": {
+    "Name": "Gelatinous Cube",
+    "Description": "A gelatinous cube is a large, amorphous creature that is often found in dungeons and caves. It is made of a thick, gelatinous substance that can dissolve flesh and bone.",
+    "CR Rating": 2,
+    "AC": 10,
+    "HP": 72,
+    "Attacks": [
+      {
+        "Name": "Acid Splash",
+        "Modifier": +4,
+        "Damage": 10 (3d6)
+      }
+    ]
+  },
+  
+  "Giant Spider": {
+    "Name": "Giant Spider",
+    "Description": "A giant spider is a large, venomous creature that is often found in forests and jungles. It has eight legs and a venomous bite that can paralyze its prey.",
+    "CR Rating": 1/4,
+    "AC": 16,
+    "HP": 27,
+    "Attacks": [
+      {
+        "Name": "Bite",
+        "Modifier": +4,
+        "Damage": 7 (2d6 + 2)
+      },
+      {
+        "Name": "Web",
+        "Modifier": +4,
+        "Damage": 0
+      }
+    ]
+  },
+  
+  "Goblin Boss": {
+    "Name": "Goblin Boss",
+    "Description": "A goblin boss is a larger and more powerful goblin than a normal goblin. It is typically armed with a better weapon and armor, and it has more hit points.",
+    "CR Rating": 1/2,
+    "AC": 15,
+    "HP": 30,
+    "Attacks": [
+      {
+        "Name": "Shortsword",
+        "Modifier": +4,
+        "Damage": 5 (1d6 + 2)
+      },
+      {
+        "Name": "Javelin",
+        "Modifier": +4,
+        "Damage": 6 (1d6 + 3)
+      }
+    ]
+  },
+  
+  "Griffin": {
+    "Name": "Griffin",
+    "Description": "A griffin is a large, winged creature that is often found in mountains and forests. It has the body of a lion and the head and wings of an eagle.",
+    "CR Rating": 3,
+    "AC": 15,
+    "HP": 72,
+    "Attacks": [
+      {
+        "Name": "Bite",
+        "Modifier": +5,
+        "Damage": 10 (2d6 + 3)
+      },
+      {
+        "Name": "Talons",
+        "Modifier": +5,
+        "Damage": 7 (1d8 + 3)
+      },
+      {
+        "Name": "Claw",
+        "Modifier": +5,
+        "Damage": 7 (1d8 + 3)
+      },
+      {
+        "Name": "Flyby",
+        "Modifier": +5,
+        "Damage": 0
+      }
+    ]
+  },
+  
+  "Grick": {
+    "Name": "Grick",
+    "Description": "A grick is a large, reptilian creature that is often found in dungeons and caves. It has sharp claws and teeth, and it can spit a corrosive acid.",
+    "CR Rating": 2,
+    "AC": 15,
+    "HP": 52,
+    "Attacks": [
+      {
+        "Name": "Bite",
+        "Modifier": +4,
+        "Damage": 7 (2d6 + 2)
+      },
+      {
+        "Name": "Claw",
+        "Modifier": +4,
+        "Damage": 7 (1d8 + 2)
+      },
+      {
+        "Name": "Acid Spit",
+        "Modifier": +4,
+        "Damage": 10 (3d6)
+      }
+    ]
+  },
+  
+  "Guard": {
+    "Name": "Guard",
+    "Description": "A guard is a member of a city's or town's law enforcement. They are typically armed with a sword and shield, and they are trained in basic combat.",
+    "CR Rating": 1/4,
+    "AC": 14,
+    "HP": 27,
+    "Attacks": [
+      {
+        "Name": "Sword",
+        "Modifier": +4,
+        "Damage": 5 (1d6 + 2)
+      },
+      {
+        "Name": "Shield Bash",
+        "Modifier": +4,
+        "Damage": 2 (1d4 + 2)
+      }
+    ]
+  },
+  
+  "Harpy": {
+    "Name": "Harpy",
+    "Description": "A harpy is a winged creature that is often found in mountains and forests. It has the body of a woman and the head and wings of an eagle.",
+    "CR Rating": 1/2,
+    "AC": 15,
+    "HP": 30,
+    "Attacks": [
+      {
+        "Name": "Talons",
+        "Modifier": +4,
+        "Damage": 7 (1d8 + 3)
+      },
+      {
+        "Name": "Beak",
+        "Modifier": +4,
+        "Damage": 5 (1d6 + 2)
+      },
+      {
+        "Name": "Screech",
+        "Modifier": +4,
+        "Damage": 0
+      }
+    ]
+  },
+  
+  "Hell Hound": {
+    "Name": "Hell Hound",
+    "Description": "A hell hound is a demonic creature that is often found in the service of evil creatures. It has the body of a dog and the head of a wolf.",
+    "CR Rating": 2,
+    "AC": 14,
+    "HP": 45,
+    "Attacks": [
+      {
+        "Name": "Bite",
+        "Modifier": +4,
+        "Damage": 7 (2d6 + 2)
+      },
+      {
+        "Name": "Claw",
+        "Modifier": +4,
+        "Damage": 7 (1d8 + 2)
+      },
+      {
+        "Name": "Fire Breath",
+        "Modifier": +4,
+        "Damage": 10 (3d6)
+      }
+    ]
+  },
+  
+  "Hobgoblin": {
+    "Name": "Hobgoblin",
+    "Description": "A hobgoblin is a large, humanoid creature that is often found in the service of evil creatures. They are typically strong and aggressive, and they are skilled in combat.",
+    "CR Rating": 1,
+    "AC": 15,
+    "HP": 27,
+    "Attacks": [
+      {
+        "Name": "Shortsword",
+        "Modifier": +4,
+        "Damage": 5 (1d6 + 2)
+      },
+      {
+        "Name": "Handaxe",
+        "Modifier": +4,
+        "Damage": 4 (1d4 + 2)
+      }
+    ]
+  },
+  
+  "Homunculus": {
+    "Name": "Homunculus",
+    "Description": "A homunculus is a small, magical creature that is often created by a wizard or sorcerer. It is typically used as a servant or a spy.",
+    "CR Rating": 1/4,
+    "AC": 13,
+    "HP": 10,
+    "Attacks": [
+      {
+        "Name": "Bite",
+        "Modifier": +4,
+        "Damage": 2 (1d4)
+      }
+    ]
+  },
+  
+  "Ice Troll": {
+    "Name": "Ice Troll",
+    "Description": "An ice troll is a large, hulking creature that is often found in cold climates. It is typically strong and aggressive, and it is resistant to cold damage.",
+    "CR Rating": 3,
+    "AC": 15,
+    "HP": 72,
+    "Attacks": [
+      {
+        "Name": "Bite",
+        "Modifier": +5,
+        "Damage": 10 (2d6 + 3)
+      },
+      {
+        "Name": "Claw",
+        "Modifier": +5,
+        "Damage": 7 (1d8 + 3)
+      },
+      {
+        "Name": "Frost Breath",
+        "Modifier": +5,
+        "Damage": 10 (3d6)
+      }
+    ]
+  },
+  
+  "Kobold": {
+    "Name": "Kobold",
+    "Description": "A kobold is a small, reptilian creature that is often found in dungeons and caves. They are typically cowardly and treacherous, but they can be dangerous if they are underestimated.",
+    "CR Rating": 1/4,
+    "AC": 13,
+    "HP": 10,
+    "Attacks": [
+      {
+        "Name": "Bite",
+        "Modifier": +4,
+        "Damage": 2 (1d4)
+      },
+      {
+        "Name": "Shortsword",
+        "Modifier": +4,
+        "Damage": 5 (1d6 + 2)
+      }
+    ]
+  },
+  
+  "Lich": {
+    "Name": "Lich",
+    "Description": "A lich is an undead creature that has achieved immortality through dark magic. They are typically powerful spellcasters, and they are feared by all who know them.",
+    "CR Rating": 17,
+    "AC": 17,
+    "HP": 200,
+    "Attacks": [
+      {
+        "Name": "Ray of Sickness",
+        "Modifier": +10,
+        "Damage": 10 (3d6)
+      },
+      {
+        "Name": "Finger of Death",
+        "Modifier": +10,
+        "Damage": 10 (3d6)
+      }
+    ]
+  },
+  
+  "Medusa": {
+    "Name": "Medusa",
+    "Description": "A medusa is a female monster with snakes for hair. Anyone who looks into her eyes is turned to stone.",
+    "CR Rating": 7,
+    "AC": 15,
+    "HP": 126,
+    "Attacks": [
+      {
+        "Name": "Petrifying Gaze",
+        "Modifier": +7,
+        "Damage": 0
+      },
+      {
+        "Name": "Shortsword",
+        "Modifier": +7,
+        "Damage": 5 (1d6 + 2)
+      }
+    ]
+  },
+  
+  "Minotaur": {
+    "Name": "Minotaur",
+    "Description": "A minotaur is a large, bull-headed creature that is often found in dungeons and caves. They are typically strong and aggressive, and they are skilled in combat.",
+    "CR Rating": 2,
+    "AC": 15,
+    "HP": 52,
+    "Attacks": [
+      {
+        "Name": "Horns",
+        "Modifier": +4,
+        "Damage": 7 (2d6 + 2)
+      },
+      {
+        "Name": "Greataxe",
+        "Modifier": +4,
+        "Damage": 17 (2d8 + 6)
+      }
+    ]
+  },
+  
+  "Aarakocra": {
+    "Name": "Aarakocra",
+    "Description": "Aarakocra are bird-like humanoids that live in the desert. They are typically peaceful and nomadic, and they are skilled in flight.",
+    "CR Rating": 1/4,
+    "AC": 13,
+    "HP": 10,
+    "Attacks": [
+      {
+        "Name": "Talons",
+        "Modifier": +4,
+        "Damage": 2 (1d4)
+      },
+      {
+        "Name": "Shortsword",
+        "Modifier": +4,
+        "Damage": 5 (1d6 + 2)
+      }
+    ]
+  },
+  
+  "Basilisk": {
+    "Name": "Basilisk",
+    "Description": "A basilisk is a large, reptilian creature that is often found in the desert. It has the ability to turn its victims to stone with its gaze.",
+    "CR Rating": 3,
+    "AC": 15,
+    "HP": 72,
+    "Attacks": [
+      {
+        "Name": "Bite",
+        "Modifier": +5,
+        "Damage": 10 (2d6 + 3)
+      },
+      {
+        "Name": "Petrifying Gaze",
+        "Modifier": +5,
+        "Damage": 0
+      }
+    ]
+  },
+  
+  "Camel": {
+    "Name": "Camel",
+    "Description": "A camel is a large, humped mammal that is often found in the desert. It is typically docile and patient, and it is known for its ability to withstand harsh conditions.",
+    "CR Rating": 1/4,
+    "AC": 13,
+    "HP": 10,
+    "Attacks": [
+      {
+        "Name": "Bite",
+        "Modifier": +4,
+        "Damage": 2 (1d4)
+      }
+    ]
+  },
+  
+  "Dunestrider": {
+    "Name": "Dunestrider",
+    "Description": "A dunestrider is a large, insectoid creature that is often found in the desert. It is typically aggressive and territorial, and it is skilled in combat.",
+    "CR Rating": 2,
+    "AC": 15,
+    "HP": 52,
+    "Attacks": [
+      {
+        "Name": "Bite",
+        "Modifier": +4,
+        "Damage": 7 (2d6 + 2)
+      },
+      {
+        "Name": "Claws",
+        "Modifier": +4,
+        "Damage": 7 (1d8 + 2)
+      }
+    ]
+  },
+  
+  "Efreeti": {
+    "Name": "Efreeti",
+    "Description": "An efreeti is a powerful genie that is often found in the desert. They are typically arrogant and cruel, and they are skilled in magic.",
+    "CR Rating": 6,
+    "AC": 16,
+    "HP": 157,
+    "Attacks": [
+      {
+        "Name": "Fire Breath",
+        "Modifier": +6,
+        "Damage": 14 (2d6 + 5)
+      },
+      {
+        "Name": "Scimitar",
+        "Modifier": +6,
+        "Damage": 11 (2d6 + 3)
+      }
+    ]
+  },
+  
+  "Gnome": {
+    "Name": "Gnome",
+    "Description": "A gnome is a small, humanoid creature that is often found in the desert. They are typically curious and inventive, and they are skilled in magic.",
+    "CR Rating": 1/4,
+    "AC": 13,
+    "HP": 10,
+    "Attacks": [
+      {
+        "Name": "Dagger",
+        "Modifier": +4,
+        "Damage": 4 (1d4 + 2)
       }
     ]
   }
