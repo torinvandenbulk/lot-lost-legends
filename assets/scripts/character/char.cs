@@ -4,13 +4,10 @@ public class Character : MonoBehaviour
 {
     public string characterName;
     public int level;
-
     public CharacterAttributes CharacterAttributes;
-
     public int initiative;
-    
     public CharacterClass characterClass;
-
+    public CharInventory charInventory;
     public Race race;
     
     private void Start()
